@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+   background-color: black;
+   width: 90%;
+   height: 660px;
+   display: grid;
+   grid-template-rows: repeat(20,1fr);
+   grid-template-columns: repeat(40,1fr) ;
+   /* row-gap: 5px;
+   column-gap: 5px; */
+   padding: 50px;
+   
+}
+.square{
+    background-color: rgb(41, 38, 38);
+    width: 25px;
+    height: 25px;
+}
+.square:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+    /* transition-delay: 5s; */
+    
+}
